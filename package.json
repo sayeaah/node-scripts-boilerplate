@@ -1,0 +1,17 @@
+{
+  "name": "scripts-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "compileSass": "sass --watch src/scss:dist/css --no-source-map",
+    "compilePug": "pug -w src/pug -o dist/ -P",
+    "serve": "live-server --host=localhost --port=8000 --quiet --open=dist/",
+    "start": "npm-run-all --parallel serve compileSass compilePug"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.50.0"
+  }
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  line-height: 1.5em;
+  word-break: break-all;
+}
+
+html {
+  height: 100%;
+  font-size: 10px;
+  font-weight: normal;
+  color: #1a1818;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
